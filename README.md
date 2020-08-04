@@ -8,7 +8,7 @@
 
 ## 配置
 
-打开`run.php`，修改`Chrome driver`的路径。
+打开[run.php](run.php)，修改`Chrome driver`的路径。
 
 ## 运行
 
