@@ -24,3 +24,9 @@ php run.php 2>&1 | tee run.log
 
 * [php-webdriver](https://github.com/php-webdriver/php-webdriver)
 * [Selenium](https://www.selenium.dev/)
+
+## 许可
+
+我宣布放弃 [run.php](run.php) 的一切著作权，使其进入公有领域，请随意使用。
+
+其他文件的著作权归其原作者所有。

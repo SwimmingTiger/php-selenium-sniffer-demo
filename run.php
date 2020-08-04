@@ -1,4 +1,6 @@
 <?php
+// 老虎会游泳：我宣布放弃本文件的一切著作权，使其进入公有领域，请随意使用。
+
 namespace Facebook\WebDriver;
 
 use Facebook\WebDriver\Chrome\ChromeDriver;
