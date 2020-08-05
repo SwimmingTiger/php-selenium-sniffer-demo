@@ -32,6 +32,8 @@ $options->setExperimentalOption('mobileEmulation', $mobileEmulation);
 $caps = $options->toCapabilities();
 $caps->setCapability('loggingPrefs', ['performance' => 'INFO']);
 
+// 注意，不能使用 RemoteWebDriver 类，不然会报错。
+// 只有 ChromeDriver 类才支持 performance 日志功能。
 $service = new ChromeDriverService($bin, $port);
 $driver = ChromeDriver::start($caps, $service);
 
